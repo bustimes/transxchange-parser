@@ -4,6 +4,8 @@ It uses
 [xml.etree.ElementTree.iterparse](https://docs.python.org/3/library/xml.etree.elementtree.html#xml.etree.ElementTree.iterparse),
 which I found helped with parsing large files without using too much memory.
 
+It has no dependencies, [noGDAL](https://kipcrossing.github.io/2021-01-03-noGDAL/).
+
 It doesn't implement the whole of the TransXChange standard, but attempts to handle all of the data available in Great Britain.
 On bustimes.org, I use it with data from:
 
@@ -97,7 +99,10 @@ This parser will still interpret that "correctly", as a 2 minute wait at stop `2
 dodgily ignored second wait time 0:02:00 from 249000000328 to 249000000301
 ````
 
+<!--
 ### DepartureDayShift
+
+`DepartureDayShift` is used when a journey starts after midnight, but on the previous "operational day" 
 
 Publishers sometimes mistakenly set the `DepartureDayShift` for journeys starting slightly before midnight...
 
@@ -109,6 +114,7 @@ Publishers sometimes mistakenly set the `DepartureDayShift` for journeys startin
 Suggesting a departure time of 47 hours and 58 minutes after midnight. 
 
 (I think this problem has been fixed at the source now, so the relevant code could be safely removed.)
+-->
 
 ## You might not need this
 
@@ -129,4 +135,4 @@ The Bus Open Data services offers timetable data in GTFS format, converted from 
   * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/scotland/`
   * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/wales/`
 
-If must use TransXChange, there may be better parsers available. For example, [pytxc](https://github.com/ciaranmccormick/pytxc).
+If you've thought about it and still want to use TransXChange, there may be better parsers available. For example, [pytxc](https://github.com/ciaranmccormick/pytxc).
