@@ -69,7 +69,7 @@ class RouteSection:
 class Point:
     srid = None
 
-    def __init__(element):
+    def __init__(self, element):
         lon = element.findtext("Longitude")
         if lon is not None:
             lat = element.findtext("Latitude")
