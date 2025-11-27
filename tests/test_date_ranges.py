@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from datetime import date
 from unittest import TestCase
 
-from transxchange_parser import txc
+from . import txc
 
 
 class DateRangeTest(TestCase):

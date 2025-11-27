@@ -15,6 +15,17 @@ On bustimes.org, I use it with data from:
 * [Stagecoach](https://www.stagecoachbus.com/open-data)
 * [Passenger](https://data.discoverpassenger.com/)
 
+## Usage
+
+```
+import txc
+
+document = txc.TransXChange("54.xml")
+
+```
+
+## Quirks
+
 It does some non-standard things in order to cope with the realities of the data that's out there:
 
 ### WaitTime
@@ -135,4 +146,9 @@ The Bus Open Data services offers timetable data in GTFS format, converted from 
   * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/scotland/`
   * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/wales/`
 
-If you've thought about it and still want to use TransXChange, there may be better parsers available. For example, [pytxc](https://github.com/ciaranmccormick/pytxc).
+If you've thought about it and still want to use TransXChange, there may be better parsers available, such as [pytxc](https://github.com/ciaranmccormick/pytxc). Or you could use the XML schema (`http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd`) to generate some code.
+
+## Future ideas
+
+- Add type annotations
+- Support creating and modifying TransXChange files, not just reading them

@@ -1,7 +1,16 @@
 [project]
 name = "transxchange-parser"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.0.1"
+authors = [
+  { name="Josh Goodwin", email="github@bustimes.org" },
+]
+description = "Read TransXChange files, which contain UK bus route and timetable information"
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/bustimes/transxchange-parser"
