@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "transxchange-parser"
 version = "0.0.1"
@@ -6,11 +10,31 @@ authors = [
 ]
 description = "Read TransXChange files, which contain UK bus route and timetable information"
 readme = "README.md"
+license = "MIT"
 requires-python = ">=3.9"
 classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Markup :: XML",
 ]
+keywords = ["transxchange", "bus", "timetable", "xml", "parser", "uk", "transit"]
 
 [project.urls]
 Homepage = "https://github.com/bustimes/transxchange-parser"
+Repository = "https://github.com/bustimes/transxchange-parser"
+Issues = "https://github.com/bustimes/transxchange-parser/issues"
+
+[project.optional-dependencies]
+test = ["tox"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["txc*"]

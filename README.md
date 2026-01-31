@@ -17,7 +17,7 @@ On bustimes.org, I use it with data from:
 
 ## Usage
 
-```
+```python
 import txc
 
 document = txc.TransXChange("54.xml")
@@ -130,11 +130,11 @@ Suggesting a departure time of 47 hours and 58 minutes after midnight.
 ## You might not need this
 
 Think carefully whether you need to parse TransXChange data at all.
-GTFS (General Transit Feed Specification) is simpler, and it's used all around the world.
-The Bus Open Data services offers timetable data in GTFS format, converted from TransXChange, for the whole of Great Britain or just the regions you're interested in:
+GTFS (General Transit Feed Specification) is simpler, and is used all around the world.
+The [Bus Open Data Service](https://data.bus-data.dft.gov.uk/timetable/download/#:~:text=data%20sets%20in-,GTFS,-format) offers timetable data in GTFS format, converted from TransXChange, for the whole of Great Britain or just the regions you're interested in:
 
 * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/all/`
-  * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/england/`
+  * 🏴󠁧󠁢󠁥󠁮󠁧󠁿 `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/england/`
     * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/east_anglia/`
     * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/east_midlands/`
     * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/east_anglia/`
@@ -143,10 +143,13 @@ The Bus Open Data services offers timetable data in GTFS format, converted from 
     * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/north_west/`
     * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/south_east/`
     * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/south_west/`
-  * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/scotland/`
-  * `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/wales/`
+  * 🏴󠁧󠁢󠁳󠁣󠁴󠁿 `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/scotland/`
+  * 🏴󠁧󠁢󠁷󠁬󠁳󠁿 `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/wales/`
 
-If you've thought about it and still want to use TransXChange, there may be better parsers available, such as [pytxc](https://github.com/ciaranmccormick/pytxc). Or you could use the XML schema (`http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd`) to generate some code.
+The National Data Library has an [archive](https://data.datalibrary.uk/transport/BODS-ARCHIVE/timetables/) of the above.
+
+If you've thought about it and still want to use TransXChange, there may be better parsers available, such as [pytxc](https://github.com/ciaranmccormick/pytxc).
+Or you could use the XML schema (`http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd`) to generate some code.
 
 ## Future ideas
 
