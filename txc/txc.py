@@ -22,6 +22,30 @@ def parse_time(string: str) -> datetime.timedelta:
     )
 
 
+def parse_duration(string: str) -> datetime.timedelta:
+    """Parse an ISO 8601 duration like PT10M or PT1H30M."""
+    if not string.startswith("PT"):
+        raise ValueError(f"Invalid duration: {string}")
+    string = string[2:]  # Remove PT prefix
+    hours = 0
+    minutes = 0
+    seconds = 0
+    current = ""
+    for char in string:
+        if char == "H":
+            hours = int(current)
+            current = ""
+        elif char == "M":
+            minutes = int(current)
+            current = ""
+        elif char == "S":
+            seconds = int(current)
+            current = ""
+        else:
+            current += char
+    return datetime.timedelta(hours=hours, minutes=minutes, seconds=seconds)
+
+
 class Stop:
     """A TransXChange StopPoint."""
 
@@ -69,12 +93,13 @@ class RouteSection:
 class Point:
     srid = None
 
-    def __init__(element):
+    def __init__(self, element):
         lon = element.findtext("Longitude")
         if lon is not None:
             lat = element.findtext("Latitude")
             self.longitude = lon
             self.latitude = lat
+            return
 
         # British National Grid
         self.longitude = element.findtext("Easting")
