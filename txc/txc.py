@@ -93,7 +93,7 @@ class RouteSection:
 class Point:
     srid = None
 
-    def __init__(self, element):
+    def __init__(self, element: ET.Element):
         lon = element.findtext("Longitude")
         if lon is not None:
             lat = element.findtext("Latitude")
@@ -106,9 +106,15 @@ class Point:
         self.latitude = element.findtext("Northing")
         self.srid = 27700
 
-
+    def wkt(self) -> str:
+        wkt = f"POINT({self.longitude} {self.latitude})"
+        if self.srid:
+            wkt = f"SRID={self.srid};{wkt}"
+        return wkt
 
 class RouteLink:
+    srid = None
+
     def __init__(self, element):
         self.id = element.get("id")
         self.from_stop = element.findtext("From/StopPointRef").upper()
@@ -119,6 +125,15 @@ class RouteLink:
 
         self.track = [Point(location) for location in locations]
 
+        if self.track:
+            self.srid = self.track[0].srid
+
+    def wkt(self) -> str:
+        wkt = ", ".join(f"{point.longitude} {point.latitude}" for point in self.track)
+        wkt = f"LINESTRING({wkt})"
+        if self.srid:
+            wkt = f"SRID={self.srid};{wkt}"
+        return wkt
 
 class JourneyPattern:
     """A collection of JourneyPatternSections, in order."""
