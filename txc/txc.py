@@ -140,6 +140,10 @@ class JourneyPattern:
                 self.operating_profile, serviced_organisations
             )
 
+        self.block = element.find("Operational/Block")
+        if self.block is not None:
+            self.block = Block(self.block)
+
     def get_timinglinks(self):
         for section in self.sections:
             yield from section.timinglinks

@@ -150,7 +150,7 @@ The [Bus Open Data Service](https://data.bus-data.dft.gov.uk/timetable/download/
 The National Data Library has an [archive](https://data.datalibrary.uk/transport/BODS-ARCHIVE/timetables/) of the above.
 
 If you've thought about it and still want to use TransXChange, there may be better parsers available, such as [pytxc](https://github.com/ciaranmccormick/pytxc).
-Or you could use the XML schema (`http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd`) to generate some code.
+Or you could use the XML schema (`http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd`), maybe with [xmlschema](https://pypi.org/project/xmlschema/).
 
 ## Future ideas
 
