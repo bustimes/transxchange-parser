@@ -112,6 +112,7 @@ class Point:
             wkt = f"SRID={self.srid};{wkt}"
         return wkt
 
+
 class RouteLink:
     srid = None
 
@@ -134,6 +135,7 @@ class RouteLink:
         if self.srid:
             wkt = f"SRID={self.srid};{wkt}"
         return wkt
+
 
 class JourneyPattern:
     """A collection of JourneyPatternSections, in order."""
@@ -334,13 +336,7 @@ class VehicleJourney:
         departure_day_shift = element.findtext("DepartureDayShift")
         if departure_day_shift:
             departure_day_shift = int(departure_day_shift)
-            if (
-                self.departure_time > datetime.timedelta(hours=12)
-                or departure_day_shift > 1
-            ):
-                logger.error(f"{self.departure_time=}, ignoring {departure_day_shift=}")
-            else:
-                self.departure_time += datetime.timedelta(days=departure_day_shift)
+            self.departure_time += datetime.timedelta(days=departure_day_shift)
 
         self.start_deadrun, self.end_deadrun = get_deadruns(element)
 

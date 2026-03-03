@@ -111,23 +111,6 @@ This parser will still interpret that "correctly", as a 2 minute wait at stop `2
 dodgily ignored second wait time 0:02:00 from 249000000328 to 249000000301
 ````
 
-<!--
-### DepartureDayShift
-
-`DepartureDayShift` is used when a journey starts after midnight, but on the previous "operational day" 
-
-Publishers sometimes mistakenly set the `DepartureDayShift` for journeys starting slightly before midnight...
-
-```xml
-    <DepartureTime>23:50:00</DepartureTime>
-    <DepartureDayShift>1</DepartureDayShift>
-```
-
-Suggesting a departure time of 47 hours and 58 minutes after midnight. 
-
-(I think this problem has been fixed at the source now, so the relevant code could be safely removed.)
--->
-
 ## You might not need this
 
 Think carefully whether you need to parse TransXChange data at all.
