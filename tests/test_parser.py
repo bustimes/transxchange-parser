@@ -5,7 +5,6 @@ from unittest import TestCase
 
 from txc import txc
 
-
 TEST_DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "test_data")
 COLCHESTER_FILE = os.path.join(
     TEST_DATA_DIR,
@@ -151,9 +150,7 @@ class ParseTimeTest(TestCase):
         self.assertEqual(result, datetime.timedelta(hours=8, minutes=30))
 
         result = txc.parse_time("23:59:59")
-        self.assertEqual(
-            result, datetime.timedelta(hours=23, minutes=59, seconds=59)
-        )
+        self.assertEqual(result, datetime.timedelta(hours=23, minutes=59, seconds=59))
 
         result = txc.parse_time("00:00:00")
         self.assertEqual(result, datetime.timedelta())
@@ -506,9 +503,7 @@ class ParseDurationTest(TestCase):
         import datetime
 
         result = txc.parse_duration("PT2H15M30S")
-        self.assertEqual(
-            result, datetime.timedelta(hours=2, minutes=15, seconds=30)
-        )
+        self.assertEqual(result, datetime.timedelta(hours=2, minutes=15, seconds=30))
 
     def test_invalid_duration(self):
         """Test that invalid duration raises error"""
@@ -568,15 +563,6 @@ class CellTest(TestCase):
 
         cell = txc.Cell(stopusage, time, time, None, None)
         self.assertIsNone(cell.wait_time)
-
-
-class WarnOnceTest(TestCase):
-    """Test the warn_once function"""
-
-    def test_warn_once(self):
-        """Test that warn_once can be called"""
-        # Just verify it doesn't raise
-        txc.warn_once("test warning %s", "arg")
 
 
 class DeadRunTest(TestCase):
