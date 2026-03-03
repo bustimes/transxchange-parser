@@ -10,11 +10,6 @@ logger = logging.getLogger(__name__)
 WEEKDAYS = {day: i for i, day in enumerate(calendar.day_name)}  # {'Monday:' 0,
 
 
-@cache
-def warn_once(msg, *args, **kwargs):
-    return logger.warning(msg, *args, **kwargs)
-
-
 def parse_time(string: str) -> datetime.timedelta:
     hours, minutes, seconds = string.split(":", 3)
     return datetime.timedelta(
@@ -404,21 +399,11 @@ class VehicleJourney:
                 if journey_timinglink and journey_timinglink.from_wait_time is not None:
                     if journey_timinglink.from_wait_time != wait_time:
                         wait_time += journey_timinglink.from_wait_time
-                    elif wait_time:
-                        warn_once(
-                            "correctly ignored second journey wait time %s at %s",
-                            wait_time,
-                            stopusage.stop.atco_code,
-                        )
+                    # as per TxC PTI profile, WaitTime can be specified in both the To and From - belt and braces
                 elif stopusage.wait_time is not None:
                     if stopusage.wait_time != wait_time:
                         wait_time += stopusage.wait_time
-                    elif wait_time:
-                        warn_once(
-                            "correctly ignored second journey pattern wait time %s at %s",
-                            wait_time,
-                            stopusage.stop.atco_code,
-                        )
+                    # ditto
 
                 notes = (
                     journey_timinglink and journey_timinglink.notes or stopusage.notes
@@ -452,15 +437,6 @@ class VehicleJourney:
                     wait_time = journey_timinglink.to_wait_time
                 else:
                     wait_time = stopusage.wait_time
-
-                    if wait_time and wait_time == timinglink.origin.wait_time:
-                        warn_once(
-                            "dodgily ignored second wait time %s from %s to %s",
-                            wait_time,
-                            timinglink.origin.stop.atco_code,
-                            stopusage.stop.atco_code,
-                        )
-                        wait_time = None
 
             if journey_timinglink and journey_timinglink.to_activity:
                 prev_activity = journey_timinglink.to_activity
