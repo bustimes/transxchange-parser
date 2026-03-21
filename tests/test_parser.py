@@ -2,6 +2,8 @@
 
 import os
 from unittest import TestCase
+from datetime import timedelta
+
 
 from txc import txc
 
@@ -144,16 +146,15 @@ class ParseTimeTest(TestCase):
 
     def test_parse_time(self):
         """Test parsing time strings"""
-        import datetime
 
         result = txc.parse_time("08:30:00")
-        self.assertEqual(result, datetime.timedelta(hours=8, minutes=30))
+        self.assertEqual(result, timedelta(hours=8, minutes=30))
 
         result = txc.parse_time("23:59:59")
-        self.assertEqual(result, datetime.timedelta(hours=23, minutes=59, seconds=59))
+        self.assertEqual(result, timedelta(hours=23, minutes=59, seconds=59))
 
         result = txc.parse_time("00:00:00")
-        self.assertEqual(result, datetime.timedelta())
+        self.assertEqual(result, timedelta())
 
 
 class StopTest(TestCase):
@@ -479,31 +480,33 @@ class ParseDurationTest(TestCase):
 
     def test_parse_minutes(self):
         """Test parsing duration with minutes only"""
-        import datetime
 
         result = txc.parse_duration("PT10M")
-        self.assertEqual(result, datetime.timedelta(minutes=10))
+        self.assertEqual(result, timedelta(minutes=10))
+
+    def test_negative(self):
+        """Test parsing duration with minutes only"""
+
+        result = txc.parse_duration("-PT58H59M0S")
+        self.assertEqual(result, -timedelta(hours=58, minutes=59))
 
     def test_parse_hours_minutes(self):
         """Test parsing duration with hours and minutes"""
-        import datetime
 
         result = txc.parse_duration("PT1H30M")
-        self.assertEqual(result, datetime.timedelta(hours=1, minutes=30))
+        self.assertEqual(result, timedelta(hours=1, minutes=30))
 
     def test_parse_seconds(self):
         """Test parsing duration with seconds"""
-        import datetime
 
         result = txc.parse_duration("PT45S")
-        self.assertEqual(result, datetime.timedelta(seconds=45))
+        self.assertEqual(result, timedelta(seconds=45))
 
     def test_parse_full(self):
         """Test parsing duration with hours, minutes and seconds"""
-        import datetime
 
         result = txc.parse_duration("PT2H15M30S")
-        self.assertEqual(result, datetime.timedelta(hours=2, minutes=15, seconds=30))
+        self.assertEqual(result, timedelta(hours=2, minutes=15, seconds=30))
 
     def test_invalid_duration(self):
         """Test that invalid duration raises error"""
@@ -536,15 +539,14 @@ class CellTest(TestCase):
 
     def test_cell_with_different_times(self):
         """Test Cell with different arrival and departure times"""
-        import datetime
 
         # Create a minimal stopusage mock
         class MockStopUsage:
             pass
 
         stopusage = MockStopUsage()
-        arrival = datetime.timedelta(hours=8)
-        departure = datetime.timedelta(hours=8, minutes=5)
+        arrival = timedelta(hours=8)
+        departure = timedelta(hours=8, minutes=5)
 
         cell = txc.Cell(stopusage, arrival, departure, None, None)
         self.assertTrue(cell.wait_time)
@@ -553,13 +555,12 @@ class CellTest(TestCase):
 
     def test_cell_with_same_times(self):
         """Test Cell with same arrival and departure times"""
-        import datetime
 
         class MockStopUsage:
             pass
 
         stopusage = MockStopUsage()
-        time = datetime.timedelta(hours=8)
+        time = timedelta(hours=8)
 
         cell = txc.Cell(stopusage, time, time, None, None)
         self.assertIsNone(cell.wait_time)

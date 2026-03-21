@@ -2,7 +2,6 @@ import calendar
 import datetime
 import logging
 import xml.etree.ElementTree as ET
-from functools import cache
 
 logger = logging.getLogger(__name__)
 
@@ -19,7 +18,11 @@ def parse_time(string: str) -> datetime.timedelta:
 
 def parse_duration(string: str) -> datetime.timedelta:
     """Parse an ISO 8601 duration like PT10M or PT1H30M."""
-    if not string.startswith("PT"):
+    positive = 1
+    if string[0] == "-":
+        positive = -1
+        string = string[1:]
+    if string[:2] != "PT":
         raise ValueError(f"Invalid duration: {string}")
     string = string[2:]  # Remove PT prefix
     hours = 0
@@ -38,7 +41,7 @@ def parse_duration(string: str) -> datetime.timedelta:
             current = ""
         else:
             current += char
-    return datetime.timedelta(hours=hours, minutes=minutes, seconds=seconds)
+    return positive * datetime.timedelta(hours=hours, minutes=minutes, seconds=seconds)
 
 
 class Stop:
