@@ -1,4 +1,4 @@
-(work in progress)
+This is a thing that makes working with TransXChange data slightly less awful. It's in use "in production" on bustimes.org, so it's "battle-tested", but lacking in documentation and not published on PyPI yet.
 
 It uses
 [xml.etree.ElementTree.iterparse](https://docs.python.org/3/library/xml.etree.elementtree.html#xml.etree.ElementTree.iterparse),
@@ -23,6 +23,7 @@ import txc
 
 document = txc.TransXChange("54.xml")
 
+# draw the rest of the owl
 ```
 
 ## You might not need this
@@ -44,7 +45,7 @@ The [Bus Open Data Service](https://data.bus-data.dft.gov.uk/timetable/download/
   * 🏴󠁧󠁢󠁳󠁣󠁴󠁿 `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/scotland/`
   * 🏴󠁧󠁢󠁷󠁬󠁳󠁿 `https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/wales/`
 
-The National Data Library has an [archive](https://data.datalibrary.uk/transport/BODS-ARCHIVE/timetables/) of the above.
+The National Data Library has an [archive](https://data.datalibrary.uk/transport/BODS-ARCHIVE/timetables/) of the above. And its international use means there are plenty of great tools for working with GTFS data – I like [GTFS Kit](https://codeberg.org/araichev/gtfs_kit). 
 
 If you've thought about it and still want to use TransXChange, there may be better parsers available, such as [pytxc](https://github.com/ciaranmccormick/pytxc).
 Or you could use the XML schema (`http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd`), maybe with [xmlschema](https://pypi.org/project/xmlschema/).
