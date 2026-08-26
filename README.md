@@ -6,7 +6,7 @@ which I found helped with parsing large files without using too much memory.
 
 It has no dependencies, [noGDAL](https://kipcrossing.github.io/2021-01-03-noGDAL/), so in theory it can run in the browser using Pyodide.
 
-It doesn't implement the whole of the TransXChange standard, but attempts to handle all of the data available in Great Britain.
+It doesn't implement the whole of the TransXChange standard, but attempts to handle all of the data available in the UK.
 On bustimes.org, I use it with data from:
 
 * Transport for London (`https://tfl.gov.uk/tfl/syndication/feeds/journey-planner-timetables.zip`)
@@ -15,6 +15,7 @@ On bustimes.org, I use it with data from:
 * [Stagecoach](https://www.stagecoachbus.com/open-data)
 * [Passenger](https://data.discoverpassenger.com/)
 * Transport for Greater Manchester
+* Translink (Northern Ireland)
 
 ## Usage
 
