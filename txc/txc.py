@@ -1,5 +1,6 @@
 import calendar
 import datetime
+import hashlib
 import logging
 import xml.etree.ElementTree as ET
 
@@ -467,7 +468,7 @@ class ServicedOrganisation:
         holidays = element.findall("Holidays/DateRange")
         self.holidays = [DateRange(e) for e in holidays if len(e)]
 
-        self.hash = ET.tostring(element)
+        self.hash = element_hash(element).digest()
 
     def __str__(self):
         return self.name or self.code
@@ -590,10 +591,11 @@ class OperatingProfile:
             if element.find("RegularDayType/HolidaysOnly") is not None:
                 self.operation_bank_holidays = element.find("RegularDayType")
 
-        self.hash = ET.tostring(element)
+        hash = element_hash(element)
         if serviced_organisations:
             for organisation in serviced_organisations.values():
-                self.hash += organisation.hash
+                hash.update(organisation.hash)
+        self.hash = hash.hexdigest()
 
 
 class DateRange:
@@ -702,6 +704,12 @@ class Line:
 
         self.outbound_description = element.findtext("OutboundDescription/Description")
         self.inbound_description = element.findtext("InboundDescription/Description")
+
+
+def element_hash(element):
+    return hashlib.sha1(
+        repr([(e.tag, e.text, e.attrib) for e in element.iter()]).encode()
+    )
 
 
 class TransXChange:
