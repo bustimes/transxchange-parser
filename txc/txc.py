@@ -214,14 +214,12 @@ class JourneyPatternStopUsage:
                 self.notes = []
 
         self.row = None
-        self.parent = None
 
 
 class JourneyPatternTimingLink:
     def __init__(self, element, stops):
         self.origin = JourneyPatternStopUsage(element.find("From"), stops)
         self.destination = JourneyPatternStopUsage(element.find("To"), stops)
-        self.origin.parent = self.destination.parent = self
         self.runtime = parse_duration(element.find("RunTime").text)
         self.id = element.get("id")
         self.route_link_ref = element.findtext("RouteLinkRef")
