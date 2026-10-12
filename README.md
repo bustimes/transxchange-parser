@@ -1,8 +1,7 @@
-This is a thing that makes working with TransXChange data slightly less awful. It's in use "in production" on bustimes.org, so it's "battle-tested", but lacking in documentation and not published on PyPI yet.
+This is a Python package that makes working with TransXChange data slightly less awful. It's in use "in production" on bustimes.org, so it's "battle-tested", but lacking in documentation and not published on PyPI yet.
 
 It uses
-[xml.etree.ElementTree.iterparse](https://docs.python.org/3/library/xml.etree.elementtree.html#xml.etree.ElementTree.iterparse),
-which I found helped with parsing large files without using too much memory.
+[xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html).
 
 It has no dependencies, [noGDAL](https://kipcrossing.github.io/2021-01-03-noGDAL/), so in theory it can run in the browser using Pyodide.
 

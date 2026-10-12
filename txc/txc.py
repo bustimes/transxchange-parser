@@ -712,6 +712,24 @@ def element_hash(element):
     )
 
 
+class WithoutDefaultNamespace:
+    """Removes the TransXChange default namespace declaration from the start of a file"""
+
+    def __init__(self, open_file):
+        self.open_file = open_file
+        self.first = True
+
+    def read(self, size=-1):
+        data = self.open_file.read(size)
+        if self.first:
+            self.first = False
+            namespace = ' xmlns="http://www.transxchange.org.uk/"'
+            if isinstance(data, bytes):
+                namespace = namespace.encode()
+            data = data.replace(namespace, type(data)(), 1)
+        return data
+
+
 class TransXChange:
     def get_journeys(self, service_code, line_id):
         return [
@@ -742,7 +760,11 @@ class TransXChange:
         return [journey for journey in journeys.values() if journey.journey_pattern]
 
     def __init__(self, open_file):
-        iterator = ET.iterparse(open_file)
+        root = ET.parse(WithoutDefaultNamespace(open_file)).getroot()
+        if root.tag[0] == "{": 
+            # WithoutDefaultNamespace didn't work – the namespace was declared unusually
+            for element in root.iter():
+                element.tag = element.tag.rpartition("}")[2]
 
         self.services = {}
         self.stops = {}
@@ -755,34 +777,33 @@ class TransXChange:
 
         journey_pattern_sections = {}
 
-        for _, element in iterator:
-            if element.tag[:33] == "{http://www.transxchange.org.uk/}":
-                element.tag = element.tag[33:]
+        for element in root:
             tag = element.tag
 
             if tag == "StopPoints":
                 for stop_element in element:
                     stop = Stop(stop_element)
                     self.stops[stop.atco_code] = stop
-                element.clear()
             elif tag == "RouteSections":
                 for section_element in element:
                     section = RouteSection(section_element)
                     self.route_sections[section.id] = section
-                element.clear()
             elif tag == "Routes":
                 for route_element in element:
                     route = Route(route_element)
                     self.routes[route.id] = route
-                element.clear()
             elif tag == "Operators":
                 self.operators = element
+                for garages_element in element.iter("Garages"):
+                    for garage_element in garages_element:
+                        self.garages[garage_element.findtext("GarageCode")] = (
+                            garage_element
+                        )
             elif tag == "JourneyPatternSections":
                 for section in element:
                     section = JourneyPatternSection(section, self.stops)
                     if section.timinglinks:
                         journey_pattern_sections[section.id] = section
-                element.clear()
             elif tag == "ServicedOrganisations":
                 serviced_organisations = (
                     ServicedOrganisation(child) for child in element
@@ -797,18 +818,16 @@ class TransXChange:
                 except (AttributeError, KeyError) as e:
                     logger.exception(e)
                     return
-                element.clear()
-            elif tag == "Service":
-                service = Service(
-                    element, serviced_organisations, journey_pattern_sections
-                )
-                self.services[service.service_code] = service
-            elif tag == "Garages":
-                for garage_element in element:
-                    self.garages[garage_element.findtext("GarageCode")] = garage_element
-                element.clear()
+            elif tag == "Services":
+                for service_element in element:
+                    service = Service(
+                        service_element,
+                        serviced_organisations,
+                        journey_pattern_sections,
+                    )
+                    self.services[service.service_code] = service
 
-        self.attributes = element.attrib
+        self.attributes = root.attrib
 
 
 class Cell:
