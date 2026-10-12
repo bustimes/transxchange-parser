@@ -193,7 +193,7 @@ class JourneyPatternStopUsage:
         except KeyError:
             self.stop = Stop(element)
 
-        self.timingstatus = element.findtext("TimingStatus")
+        self.timingstatus = (element.findtext("TimingStatus") or "").strip() or None
 
         self.wait_time = element.find("WaitTime")
         if self.wait_time is not None:
