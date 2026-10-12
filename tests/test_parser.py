@@ -12,6 +12,7 @@ COLCHESTER_FILE = os.path.join(
     TEST_DATA_DIR,
     "54-FEAO054--FESX-Colchester-2025-09-07-CR20_Exports-CF_C59_Update-BODS_V1_1.xml",
 )
+DC1_FILE = os.path.join(TEST_DATA_DIR, "DC1_20260930093052303.xml")
 
 
 class TransXChangeParserTest(TestCase):
@@ -139,6 +140,68 @@ class TransXChangeParserTest(TestCase):
                 self.assertIsInstance(links, list)
                 break  # Just test one
             break  # Just test one service
+
+
+class DC1Test(TestCase):
+    """Albatross Coaches file with a couple of whitespace-only TimingStatuses"""
+
+    @classmethod
+    def setUpClass(cls):
+        with open(DC1_FILE, "rb") as f:
+            cls.txc = txc.TransXChange(f)
+
+    def test_garages(self):
+        self.assertEqual(list(self.txc.garages), ["1"])
+        self.assertEqual(self.txc.garages["1"].findtext("GarageName"), "Albatross")
+
+    def test_whitespace_timingstatus(self):
+        timingstatuses = {}
+        for journey in self.txc.journeys:
+            for timinglink, _ in journey.get_timinglinks():
+                for stopusage in (timinglink.origin, timinglink.destination):
+                    timingstatuses[stopusage.stop.atco_code] = stopusage.timingstatus
+
+        self.assertEqual(set(timingstatuses.values()), {"PTP", "TIP", None})
+        self.assertIsNone(timingstatuses["109000009230"])
+        self.assertEqual(timingstatuses["109000009229"], "TIP")
+
+
+class GaragesTest(TestCase):
+    def test_licensed_operator_garages(self):
+        """Garages can be in a LicensedOperator as well as an Operator"""
+        import io
+
+        transxchange = txc.TransXChange(
+            io.StringIO(
+                """<?xml version="1.0" encoding="utf-8"?>
+                <TransXChange xmlns="http://www.transxchange.org.uk/">
+                    <Operators>
+                        <LicensedOperator id="O1">
+                            <NationalOperatorCode>CBNL</NationalOperatorCode>
+                            <Garages>
+                                <Garage>
+                                    <GarageCode>LE</GarageCode>
+                                    <GarageName>Leicester</GarageName>
+                                </Garage>
+                            </Garages>
+                        </LicensedOperator>
+                        <Operator id="O2">
+                            <NationalOperatorCode>FECS</NationalOperatorCode>
+                            <Garages>
+                                <Garage>
+                                    <GarageCode>NO</GarageCode>
+                                    <GarageName>Norwich</GarageName>
+                                </Garage>
+                            </Garages>
+                        </Operator>
+                    </Operators>
+                </TransXChange>"""
+            )
+        )
+        self.assertEqual(
+            {code: g.findtext("GarageName") for code, g in transxchange.garages.items()},
+            {"LE": "Leicester", "NO": "Norwich"},
+        )
 
 
 class ParseTimeTest(TestCase):

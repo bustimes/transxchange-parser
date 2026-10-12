@@ -1,0 +1,3325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2026-09-30T09:30:52Z" ModificationDateTime="2026-09-30T09:30:52Z" Modification="new" RevisionNumber="0" FileName="DC1_20260930093052303.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008926</StopPointRef>
+      <CommonName>Mickleover, 38 Western Road</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L1">
+        <Longitude>-1.5408373412</Longitude>
+        <Latitude>52.9094921008</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008925</StopPointRef>
+      <CommonName>Mickleover, 38 Western Road</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L2">
+        <Longitude>-1.5415527525</Longitude>
+        <Latitude>52.9093330531</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009237</StopPointRef>
+      <CommonName>Derby, Agard Street</CommonName>
+      <Indicator>SE-bound</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L3">
+        <Longitude>-1.4868086205</Longitude>
+        <Latitude>52.9252722400</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009023</StopPointRef>
+      <CommonName>Mackworth Estate, Barnes Green</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L4">
+        <Longitude>-1.5167698175</Longitude>
+        <Latitude>52.9289935372</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008922</StopPointRef>
+      <CommonName>Mickleover, Barnwood Close</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L5">
+        <Longitude>-1.5541353734</Longitude>
+        <Latitude>52.9104776151</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008923</StopPointRef>
+      <CommonName>Mickleover, Barnwood Close</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L6">
+        <Longitude>-1.5543248925</Longitude>
+        <Latitude>52.9108468900</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009235</StopPointRef>
+      <CommonName>Derby, Bridge Street</CommonName>
+      <Indicator>NE-bound</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L7">
+        <Longitude>-1.4869912574</Longitude>
+        <Latitude>52.9261809551</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009236</StopPointRef>
+      <CommonName>Derby, Bridge Street</CommonName>
+      <Indicator>SW-bound</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L8">
+        <Longitude>-1.4869329281</Longitude>
+        <Latitude>52.9260818202</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008945</StopPointRef>
+      <CommonName>Mickleover, Chevin Avenue</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L9">
+        <Longitude>-1.5310016791</Longitude>
+        <Latitude>52.9101368966</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008944</StopPointRef>
+      <CommonName>Mickleover, Chevin Avenue</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L10">
+        <Longitude>-1.5305117782</Longitude>
+        <Latitude>52.9100630477</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008961</StopPointRef>
+      <CommonName>Mickleover, Darwin Road</CommonName>
+      <Indicator>E-bound</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L11">
+        <Longitude>-1.5360600144</Longitude>
+        <Latitude>52.9126737714</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008960</StopPointRef>
+      <CommonName>Mickleover, Darwin Road</CommonName>
+      <Indicator>W-bound</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L12">
+        <Longitude>-1.5363433102</Longitude>
+        <Latitude>52.9126029616</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008956</StopPointRef>
+      <CommonName>Mickleover, Devonshire Drive</CommonName>
+      <Indicator>N-bound</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L13">
+        <Longitude>-1.5367942808</Longitude>
+        <Latitude>52.9107529078</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008955</StopPointRef>
+      <CommonName>Mickleover, Devonshire Drive</CommonName>
+      <Indicator>S-bound</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L14">
+        <Longitude>-1.5366632376</Longitude>
+        <Latitude>52.9104917051</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008958</StopPointRef>
+      <CommonName>Mickleover, Dunedin Close</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L15">
+        <Longitude>-1.5328393343</Longitude>
+        <Latitude>52.9120948279</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008957</StopPointRef>
+      <CommonName>Mickleover, Dunedin Close</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L16">
+        <Longitude>-1.5326911207</Longitude>
+        <Latitude>52.9120492985</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008928</StopPointRef>
+      <CommonName>Mickleover, East Avenue</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L17">
+        <Longitude>-1.5431326437</Longitude>
+        <Latitude>52.9146338775</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008971</StopPointRef>
+      <CommonName>Mackworth Estate, Finchley Avenue</CommonName>
+      <Indicator>NW-bound</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L18">
+        <Longitude>-1.5260446009</Longitude>
+        <Latitude>52.9283566688</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008972</StopPointRef>
+      <CommonName>Mackworth Estate, Finchley Avenue</CommonName>
+      <Indicator>SE-bound</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L19">
+        <Longitude>-1.5259846092</Longitude>
+        <Latitude>52.9284013765</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109054186</StopPointRef>
+      <CommonName>Pride Park, Football Stadium</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Pride Park</LocalityName>
+      <Location id="L20">
+        <Longitude>-1.4488659633</Longitude>
+        <Latitude>52.9156455522</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109052241</StopPointRef>
+      <CommonName>Mickleover, Foragers Way</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L21">
+        <Longitude>-1.542375</Longitude>
+        <Latitude>52.918738</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109052242</StopPointRef>
+      <CommonName>Mickleover, Foragers Way</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L22">
+        <Longitude>-1.542567</Longitude>
+        <Latitude>52.918462</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009241</StopPointRef>
+      <CommonName>Derby, Fowler Street</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L23">
+        <Longitude>-1.4919541227</Longitude>
+        <Latitude>52.9253752439</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009242</StopPointRef>
+      <CommonName>Derby, Fowler Street</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L24">
+        <Longitude>-1.4922939163</Longitude>
+        <Latitude>52.9255744617</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009238</StopPointRef>
+      <CommonName>Derby, Friar Gate Bridge</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L25">
+        <Longitude>-1.4861237922</Longitude>
+        <Latitude>52.9240647054</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009229</StopPointRef>
+      <CommonName>Derby, Garden Street</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L26">
+        <Longitude>-1.4824937881</Longitude>
+        <Latitude>52.9291099779</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009042</StopPointRef>
+      <CommonName>Mackworth Estate, Greenland Avenue</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L27">
+        <Longitude>-1.5160039742</Longitude>
+        <Latitude>52.9242979747</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009041</StopPointRef>
+      <CommonName>Mackworth Estate, Greenland Avenue</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L28">
+        <Longitude>-1.5157507178</Longitude>
+        <Latitude>52.9243329010</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008921</StopPointRef>
+      <CommonName>Mickleover, Greenside Court</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L29">
+        <Longitude>-1.5533702223</Longitude>
+        <Latitude>52.9082453776</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008920</StopPointRef>
+      <CommonName>Mickleover, Greenside Court</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L30">
+        <Longitude>-1.5534502921</Longitude>
+        <Latitude>52.9076883370</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009018</StopPointRef>
+      <CommonName>Mackworth Estate, Hannover Square</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L31">
+        <Longitude>-1.5219203365</Longitude>
+        <Latitude>52.9259849446</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109052304</StopPointRef>
+      <CommonName>Mackworth Estate, Harlesden Avenue</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L32">
+        <Longitude>-1.5195923323</Longitude>
+        <Latitude>52.9306949742</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109052302</StopPointRef>
+      <CommonName>Mackworth Estate, Harlesden Avenue</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L33">
+        <Longitude>-1.5192950103</Longitude>
+        <Latitude>52.9306757938</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008973</StopPointRef>
+      <CommonName>Mackworth Estate, Henley Green</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L34">
+        <Longitude>-1.5288477847</Longitude>
+        <Latitude>52.9277565338</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008915</StopPointRef>
+      <CommonName>Mickleover, Holly Court</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L35">
+        <Longitude>-1.5474762754</Longitude>
+        <Latitude>52.9059487741</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008914</StopPointRef>
+      <CommonName>Mickleover, Holly Court</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L36">
+        <Longitude>-1.5468510849</Longitude>
+        <Latitude>52.9060183076</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109052240</StopPointRef>
+      <CommonName>Mackworth Estate, Hyde Park Road</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L37">
+        <Longitude>-1.516588</Longitude>
+        <Latitude>52.929812</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109052243</StopPointRef>
+      <CommonName>Mickleover, Inglewood Avenue</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L38">
+        <Longitude>-1.542833</Longitude>
+        <Latitude>52.91587</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009234</StopPointRef>
+      <CommonName>Derby, Kings Mead Walk</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L39">
+        <Longitude>-1.4838541638</Longitude>
+        <Latitude>52.9273000383</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009233</StopPointRef>
+      <CommonName>Derby, Kings Mead Walk</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L40">
+        <Longitude>-1.4838255898</Longitude>
+        <Latitude>52.9272010311</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009016</StopPointRef>
+      <CommonName>Mackworth Estate, Kingsbury Road</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L41">
+        <Longitude>-1.5230532913</Longitude>
+        <Latitude>52.9284705581</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009015</StopPointRef>
+      <CommonName>Mackworth Estate, Kingsbury Road</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L42">
+        <Longitude>-1.5228122238</Longitude>
+        <Latitude>52.9287482609</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109052238</StopPointRef>
+      <CommonName>Mackworth Estate, Kingsway Bridge</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L43">
+        <Longitude>-1.512894</Longitude>
+        <Latitude>52.924559</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009039</StopPointRef>
+      <CommonName>Mackworth Estate, Kingsway Bridge</CommonName>
+      <Indicator>W-bound</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L44">
+        <Longitude>-1.5118297799</Longitude>
+        <Latitude>52.9238044721</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008930</StopPointRef>
+      <CommonName>Mickleover, Ladybank Road Shops</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L45">
+        <Longitude>-1.5532770038</Longitude>
+        <Latitude>52.9129734382</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008931</StopPointRef>
+      <CommonName>Mickleover, Ladybank Road Shops</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L46">
+        <Longitude>-1.5525125202</Longitude>
+        <Latitude>52.9135638615</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008919</StopPointRef>
+      <CommonName>Mickleover, Lidgate Close</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L47">
+        <Longitude>-1.5532601583</Longitude>
+        <Latitude>52.9059346935</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008918</StopPointRef>
+      <CommonName>Mickleover, Lidgate Close</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L48">
+        <Longitude>-1.5533534295</Longitude>
+        <Latitude>52.9055395112</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008974</StopPointRef>
+      <CommonName>Mackworth Estate, Lombard Street</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L49">
+        <Longitude>-1.5301084777</Longitude>
+        <Latitude>52.9267277468</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008935</StopPointRef>
+      <CommonName>Mickleover, Loxton Court</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L50">
+        <Longitude>-1.5465976822</Longitude>
+        <Latitude>52.9146291643</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008934</StopPointRef>
+      <CommonName>Mickleover, Loxton Court</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L51">
+        <Longitude>-1.5465943984</Longitude>
+        <Latitude>52.9149437798</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009243</StopPointRef>
+      <CommonName>Markeaton, Merchant Street</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Markeaton</LocalityName>
+      <Location id="L52">
+        <Longitude>-1.4941776041</Longitude>
+        <Latitude>52.9260409488</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009244</StopPointRef>
+      <CommonName>Markeaton, Merchant Street</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Markeaton</LocalityName>
+      <Location id="L53">
+        <Longitude>-1.4946382921</Longitude>
+        <Latitude>52.9260788654</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008912</StopPointRef>
+      <CommonName>Mickleover, Methodist Church</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L54">
+        <Longitude>-1.5439161193</Longitude>
+        <Latitude>52.9065824038</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009239</StopPointRef>
+      <CommonName>Derby, Mill Street</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L55">
+        <Longitude>-1.4882827477</Longitude>
+        <Latitude>52.9251437534</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>100053935</StopPointRef>
+      <CommonName>Mackworth, Moorgate</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Mackworth</LocalityName>
+      <Location id="L56">
+        <Longitude>-1.534315</Longitude>
+        <Latitude>52.927015</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>100053934</StopPointRef>
+      <CommonName>Mackworth, Moorgate</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Mackworth</LocalityName>
+      <Location id="L57">
+        <Longitude>-1.534463</Longitude>
+        <Latitude>52.927069</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009020</StopPointRef>
+      <CommonName>Mackworth Estate, Morden Green</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L58">
+        <Longitude>-1.5226137033</Longitude>
+        <Latitude>52.9265091136</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009019</StopPointRef>
+      <CommonName>Mackworth Estate, Morden Green</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L59">
+        <Longitude>-1.5227621532</Longitude>
+        <Latitude>52.9265366776</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009021</StopPointRef>
+      <CommonName>Mackworth Estate, Mornington Crescent</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L60">
+        <Longitude>-1.5207707312</Longitude>
+        <Latitude>52.9277152631</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009022</StopPointRef>
+      <CommonName>Mackworth Estate, Mornington Crescent</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L61">
+        <Longitude>-1.5193660103</Longitude>
+        <Latitude>52.9282939012</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008916</StopPointRef>
+      <CommonName>Mickleover, Prescot Close</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L62">
+        <Longitude>-1.5498593808</Longitude>
+        <Latitude>52.9055443105</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008917</StopPointRef>
+      <CommonName>Mickleover, Prescot Close</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L63">
+        <Longitude>-1.5506213417</Longitude>
+        <Latitude>52.9051876180</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008953</StopPointRef>
+      <CommonName>Mickleover, Royal British Legion</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L64">
+        <Longitude>-1.5380977498</Longitude>
+        <Latitude>52.9098320734</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008954</StopPointRef>
+      <CommonName>Mickleover, Royal British Legion</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L65">
+        <Longitude>-1.5377408951</Longitude>
+        <Latitude>52.9098306863</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009231</StopPointRef>
+      <CommonName>Derby, Seven Stars</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L66">
+        <Longitude>-1.4817691162</Longitude>
+        <Latitude>52.9275067130</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009230</StopPointRef>
+      <CommonName>Derby, Seven Stars</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L67">
+        <Longitude>-1.4810227938</Longitude>
+        <Latitude>52.9277192025</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009122</StopPointRef>
+      <CommonName>Markeaton, Shaw Street</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Markeaton</LocalityName>
+      <Location id="L68">
+        <Longitude>-1.4959419187</Longitude>
+        <Latitude>52.9265428574</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009123</StopPointRef>
+      <CommonName>Markeaton, Shaw Street</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Markeaton</LocalityName>
+      <Location id="L69">
+        <Longitude>-1.4971735940</Longitude>
+        <Latitude>52.9267997753</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008932</StopPointRef>
+      <CommonName>Mickleover, Stanstead Road</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L70">
+        <Longitude>-1.5506954627</Longitude>
+        <Latitude>52.9152739776</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008933</StopPointRef>
+      <CommonName>Mickleover, Stanstead Road</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L71">
+        <Longitude>-1.5503981391</Longitude>
+        <Latitude>52.9152638642</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008911</StopPointRef>
+      <CommonName>Mickleover, Station Road Junction</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L72">
+        <Longitude>-1.5439725341</Longitude>
+        <Latitude>52.9082906028</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008924</StopPointRef>
+      <CommonName>Mickleover, Station Road Junction</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L73">
+        <Longitude>-1.5434282973</Longitude>
+        <Latitude>52.9091425049</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009127</StopPointRef>
+      <CommonName>Markeaton, Sutton Close</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Markeaton</LocalityName>
+      <Location id="L74">
+        <Longitude>-1.5025397919</Longitude>
+        <Latitude>52.9284314459</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009128</StopPointRef>
+      <CommonName>Markeaton, Sutton Close</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Markeaton</LocalityName>
+      <Location id="L75">
+        <Longitude>-1.5016491349</Longitude>
+        <Latitude>52.9282659074</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008903</StopPointRef>
+      <CommonName>Mickleover, Tesco</CommonName>
+      <Indicator>E-bound</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L76">
+        <Longitude>-1.5433711671</Longitude>
+        <Latitude>52.9046745621</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008913</StopPointRef>
+      <CommonName>Mickleover, Tesco</CommonName>
+      <Indicator>S-bound</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L77">
+        <Longitude>-1.5432145581</Longitude>
+        <Latitude>52.9054290688</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109052239</StopPointRef>
+      <CommonName>Mickleover, The Great Northern</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L78">
+        <Longitude>-1.542324</Longitude>
+        <Latitude>52.920339</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109055219</StopPointRef>
+      <CommonName>Mickleover, The Great Northern</CommonName>
+      <Indicator>outside</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L79">
+        <Longitude>-1.5422146</Longitude>
+        <Latitude>52.9204016</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009069</StopPointRef>
+      <CommonName>Mackworth Estate, Tufnell Gardens</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L80">
+        <Longitude>-1.5175465301</Longitude>
+        <Latitude>52.9300484463</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009240</StopPointRef>
+      <CommonName>Derby, Vernon Street</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Derby</LocalityName>
+      <Location id="L81">
+        <Longitude>-1.4889861668</Longitude>
+        <Latitude>52.9247782145</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008906</StopPointRef>
+      <CommonName>Mickleover, Vicarage Road</CommonName>
+      <Indicator>NW-bound</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L82">
+        <Longitude>-1.5455306704</Longitude>
+        <Latitude>52.9043232624</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008904</StopPointRef>
+      <CommonName>Mickleover, Vicarage Road</CommonName>
+      <Indicator>SE-bound</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L83">
+        <Longitude>-1.5451753659</Longitude>
+        <Latitude>52.9041780733</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109051916</StopPointRef>
+      <CommonName>Mickleover, Western Road Junction</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L84">
+        <Longitude>-1.5287306179</Longitude>
+        <Latitude>52.9097683396</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109051918</StopPointRef>
+      <CommonName>Mickleover, Western Road Junction</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L85">
+        <Longitude>-1.5288940783</Longitude>
+        <Latitude>52.9097779769</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008937</StopPointRef>
+      <CommonName>Mickleover, Westhall Road</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L86">
+        <Longitude>-1.5444520971</Longitude>
+        <Latitude>52.9136051631</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000008936</StopPointRef>
+      <CommonName>Mickleover, Westhall Road</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Mickleover</LocalityName>
+      <Location id="L87">
+        <Longitude>-1.5449734974</Longitude>
+        <Latitude>52.9135172662</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109052308</StopPointRef>
+      <CommonName>Mackworth Estate, Wimbledon Road</CommonName>
+      <Indicator>N-bound</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L88">
+        <Longitude>-1.5212913745</Longitude>
+        <Latitude>52.9304141676</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109052306</StopPointRef>
+      <CommonName>Mackworth Estate, Wimbledon Road</CommonName>
+      <Indicator>S-bound</Indicator>
+      <LocalityName>Mackworth Estate</LocalityName>
+      <Location id="L89">
+        <Longitude>-1.5210961030</Longitude>
+        <Latitude>52.9305841790</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009125</StopPointRef>
+      <CommonName>Markeaton, Windmill Hill Lane</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Markeaton</LocalityName>
+      <Location id="L90">
+        <Longitude>-1.5006424820</Longitude>
+        <Latitude>52.9278391835</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>109000009124</StopPointRef>
+      <CommonName>Markeaton, Windmill Hill Lane</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Markeaton</LocalityName>
+      <Location id="L91">
+        <Longitude>-1.4997224052</Longitude>
+        <Latitude>52.9276465388</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS14">
+      <RouteLink id="RL14_344">
+        <From>
+          <StopPointRef>109051918</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008944</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_345">
+        <From>
+          <StopPointRef>109000008944</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008958</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_346">
+        <From>
+          <StopPointRef>109000008958</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008960</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_347">
+        <From>
+          <StopPointRef>109000008960</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008955</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_348">
+        <From>
+          <StopPointRef>109000008955</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008954</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_349">
+        <From>
+          <StopPointRef>109000008954</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008925</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_350">
+        <From>
+          <StopPointRef>109000008925</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008911</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_351">
+        <From>
+          <StopPointRef>109000008911</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008913</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_352">
+        <From>
+          <StopPointRef>109000008913</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008906</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_353">
+        <From>
+          <StopPointRef>109000008906</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008914</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_354">
+        <From>
+          <StopPointRef>109000008914</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008917</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_355">
+        <From>
+          <StopPointRef>109000008917</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008918</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_356">
+        <From>
+          <StopPointRef>109000008918</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008921</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_357">
+        <From>
+          <StopPointRef>109000008921</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008923</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_358">
+        <From>
+          <StopPointRef>109000008923</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008931</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_359">
+        <From>
+          <StopPointRef>109000008931</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008932</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_360">
+        <From>
+          <StopPointRef>109000008932</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008934</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_361">
+        <From>
+          <StopPointRef>109000008934</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008937</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_362">
+        <From>
+          <StopPointRef>109000008937</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008928</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_363">
+        <From>
+          <StopPointRef>109000008928</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109052242</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_364">
+        <From>
+          <StopPointRef>109052242</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109052239</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_365">
+        <From>
+          <StopPointRef>109052239</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>100053934</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_366">
+        <From>
+          <StopPointRef>100053934</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008974</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_367">
+        <From>
+          <StopPointRef>109000008974</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008973</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_368">
+        <From>
+          <StopPointRef>109000008973</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008972</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_369">
+        <From>
+          <StopPointRef>109000008972</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009015</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_370">
+        <From>
+          <StopPointRef>109000009015</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109052308</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_371">
+        <From>
+          <StopPointRef>109052308</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109052302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_372">
+        <From>
+          <StopPointRef>109052302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109052240</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_373">
+        <From>
+          <StopPointRef>109052240</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009023</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_374">
+        <From>
+          <StopPointRef>109000009023</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009021</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_375">
+        <From>
+          <StopPointRef>109000009021</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009020</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_376">
+        <From>
+          <StopPointRef>109000009020</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009018</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_377">
+        <From>
+          <StopPointRef>109000009018</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009041</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_378">
+        <From>
+          <StopPointRef>109000009041</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109052238</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_379">
+        <From>
+          <StopPointRef>109052238</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009128</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_380">
+        <From>
+          <StopPointRef>109000009128</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009124</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_381">
+        <From>
+          <StopPointRef>109000009124</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009122</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_382">
+        <From>
+          <StopPointRef>109000009122</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009243</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_383">
+        <From>
+          <StopPointRef>109000009243</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009242</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_384">
+        <From>
+          <StopPointRef>109000009242</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009239</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_385">
+        <From>
+          <StopPointRef>109000009239</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009235</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_386">
+        <From>
+          <StopPointRef>109000009235</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009234</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_387">
+        <From>
+          <StopPointRef>109000009234</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009229</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_299">
+        <From>
+          <StopPointRef>109000009229</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009230</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL14_300">
+        <From>
+          <StopPointRef>109000009230</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109054186</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS15">
+      <RouteLink id="RL15_388">
+        <From>
+          <StopPointRef>109054186</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009231</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_83">
+        <From>
+          <StopPointRef>109000009231</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009233</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_389">
+        <From>
+          <StopPointRef>109000009233</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009236</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_390">
+        <From>
+          <StopPointRef>109000009236</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009237</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_391">
+        <From>
+          <StopPointRef>109000009237</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009238</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_392">
+        <From>
+          <StopPointRef>109000009238</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009240</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_393">
+        <From>
+          <StopPointRef>109000009240</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009241</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_394">
+        <From>
+          <StopPointRef>109000009241</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009244</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_395">
+        <From>
+          <StopPointRef>109000009244</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009123</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_396">
+        <From>
+          <StopPointRef>109000009123</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009125</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_397">
+        <From>
+          <StopPointRef>109000009125</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009127</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_398">
+        <From>
+          <StopPointRef>109000009127</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009039</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_399">
+        <From>
+          <StopPointRef>109000009039</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009042</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_400">
+        <From>
+          <StopPointRef>109000009042</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009019</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_401">
+        <From>
+          <StopPointRef>109000009019</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009022</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_402">
+        <From>
+          <StopPointRef>109000009022</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009069</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_403">
+        <From>
+          <StopPointRef>109000009069</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109052304</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_404">
+        <From>
+          <StopPointRef>109052304</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109052306</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_405">
+        <From>
+          <StopPointRef>109052306</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000009016</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_406">
+        <From>
+          <StopPointRef>109000009016</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008971</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_407">
+        <From>
+          <StopPointRef>109000008971</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008973</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_408">
+        <From>
+          <StopPointRef>109000008973</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>100053935</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_409">
+        <From>
+          <StopPointRef>100053935</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109055219</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_410">
+        <From>
+          <StopPointRef>109055219</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109052241</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_411">
+        <From>
+          <StopPointRef>109052241</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109052243</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_412">
+        <From>
+          <StopPointRef>109052243</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008936</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_413">
+        <From>
+          <StopPointRef>109000008936</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008935</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_414">
+        <From>
+          <StopPointRef>109000008935</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008933</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_415">
+        <From>
+          <StopPointRef>109000008933</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008930</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_416">
+        <From>
+          <StopPointRef>109000008930</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008922</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_417">
+        <From>
+          <StopPointRef>109000008922</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008920</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_418">
+        <From>
+          <StopPointRef>109000008920</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008919</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_419">
+        <From>
+          <StopPointRef>109000008919</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008916</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_420">
+        <From>
+          <StopPointRef>109000008916</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008915</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_421">
+        <From>
+          <StopPointRef>109000008915</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008904</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_422">
+        <From>
+          <StopPointRef>109000008904</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008903</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_423">
+        <From>
+          <StopPointRef>109000008903</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008912</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_424">
+        <From>
+          <StopPointRef>109000008912</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008924</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_425">
+        <From>
+          <StopPointRef>109000008924</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008926</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_426">
+        <From>
+          <StopPointRef>109000008926</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008953</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_427">
+        <From>
+          <StopPointRef>109000008953</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008956</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_428">
+        <From>
+          <StopPointRef>109000008956</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008961</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_429">
+        <From>
+          <StopPointRef>109000008961</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008957</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_430">
+        <From>
+          <StopPointRef>109000008957</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109000008945</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL15_431">
+        <From>
+          <StopPointRef>109000008945</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>109051916</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT14">
+      <Description>Mickleover - Pride Park</Description>
+      <RouteSectionRef>RS14</RouteSectionRef>
+    </Route>
+    <Route id="RT15">
+      <Description>Mickleover - Pride Park</Description>
+      <RouteSectionRef>RS15</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS14">
+      <JourneyPatternTimingLink id="JPTL14_344">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>109051918</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008944</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_344</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_345">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008944</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008958</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_345</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_346">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008958</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008960</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_346</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_347">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008960</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008955</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_347</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_348">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008955</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008954</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_348</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_349">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008954</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008925</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_349</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_350">
+        <From SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008925</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008911</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_350</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_351">
+        <From SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008911</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008913</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_351</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_352">
+        <From SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008913</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008906</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_352</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_353">
+        <From SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008906</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008914</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_353</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_354">
+        <From SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008914</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008917</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_354</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_355">
+        <From SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008917</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="13">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008918</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_355</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_356">
+        <From SequenceNumber="13">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008918</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="14">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008921</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_356</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_357">
+        <From SequenceNumber="14">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008921</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="15">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008923</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_357</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_358">
+        <From SequenceNumber="15">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008923</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="16">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008931</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_358</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_359">
+        <From SequenceNumber="16">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008931</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="17">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008932</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_359</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_360">
+        <From SequenceNumber="17">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008932</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="18">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008934</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_360</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_361">
+        <From SequenceNumber="18">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008934</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="19">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008937</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_361</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_362">
+        <From SequenceNumber="19">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008937</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="20">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008928</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_362</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_363">
+        <From SequenceNumber="20">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008928</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="21">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052242</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_363</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_364">
+        <From SequenceNumber="21">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052242</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="22">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052239</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_364</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_365">
+        <From SequenceNumber="22">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052239</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="23">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>100053934</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_365</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_366">
+        <From SequenceNumber="23">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>100053934</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="24">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008974</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_366</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_367">
+        <From SequenceNumber="24">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008974</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="25">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008973</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_367</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_368">
+        <From SequenceNumber="25">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008973</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="26">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008972</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_368</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_369">
+        <From SequenceNumber="26">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008972</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="27">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009015</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_369</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_370">
+        <From SequenceNumber="27">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009015</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="28">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052308</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_370</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_371">
+        <From SequenceNumber="28">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052308</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="29">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052302</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_371</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_372">
+        <From SequenceNumber="29">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052302</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="30">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052240</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_372</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_373">
+        <From SequenceNumber="30">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052240</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="31">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009023</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_373</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_374">
+        <From SequenceNumber="31">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009023</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="32">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009021</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_374</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_375">
+        <From SequenceNumber="32">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009021</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="33">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009020</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_375</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_376">
+        <From SequenceNumber="33">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009020</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="34">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009018</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_376</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_377">
+        <From SequenceNumber="34">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009018</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="35">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009041</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_377</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_378">
+        <From SequenceNumber="35">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009041</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="36">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052238</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_378</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_379">
+        <From SequenceNumber="36">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052238</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="37">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009128</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_379</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_380">
+        <From SequenceNumber="37">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009128</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="38">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009124</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_380</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_381">
+        <From SequenceNumber="38">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009124</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="39">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009122</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_381</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_382">
+        <From SequenceNumber="39">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009122</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="40">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009243</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_382</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_383">
+        <From SequenceNumber="40">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009243</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="41">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009242</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_383</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_384">
+        <From SequenceNumber="41">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009242</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="42">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009239</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_384</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_385">
+        <From SequenceNumber="42">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009239</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="43">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009235</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_385</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_386">
+        <From SequenceNumber="43">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009235</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="44">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009234</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_386</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_387">
+        <From SequenceNumber="44">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009234</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="45">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009229</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_387</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_299">
+        <From SequenceNumber="45">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009229</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="46">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009230</StopPointRef>
+          <TimingStatus>
+          </TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_299</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14_300">
+        <From SequenceNumber="46">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009230</StopPointRef>
+          <TimingStatus>
+          </TimingStatus>
+        </From>
+        <To SequenceNumber="47">
+          <Activity>setDown</Activity>
+          <StopPointRef>109054186</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14_300</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS15">
+      <JourneyPatternTimingLink id="JPTL15_388">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>109054186</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009231</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_388</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_83">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009231</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009233</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_83</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_389">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009233</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009236</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_389</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_390">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009236</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009237</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_390</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_391">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009237</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009238</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_391</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_392">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009238</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009240</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_392</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_393">
+        <From SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009240</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009241</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_393</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_394">
+        <From SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009241</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009244</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_394</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_395">
+        <From SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009244</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009123</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_395</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_396">
+        <From SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009123</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009125</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_396</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_397">
+        <From SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009125</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009127</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_397</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_398">
+        <From SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009127</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="13">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009039</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_398</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_399">
+        <From SequenceNumber="13">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009039</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="14">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009042</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_399</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_400">
+        <From SequenceNumber="14">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009042</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="15">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009019</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_400</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_401">
+        <From SequenceNumber="15">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009019</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="16">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009022</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_401</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_402">
+        <From SequenceNumber="16">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009022</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="17">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009069</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_402</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_403">
+        <From SequenceNumber="17">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009069</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="18">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052304</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_403</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_404">
+        <From SequenceNumber="18">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052304</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="19">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052306</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_404</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_405">
+        <From SequenceNumber="19">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052306</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="20">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009016</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_405</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_406">
+        <From SequenceNumber="20">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000009016</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="21">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008971</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_406</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_407">
+        <From SequenceNumber="21">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008971</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="22">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008973</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_407</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_408">
+        <From SequenceNumber="22">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008973</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="23">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>100053935</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_408</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_409">
+        <From SequenceNumber="23">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>100053935</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="24">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109055219</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_409</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_410">
+        <From SequenceNumber="24">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109055219</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="25">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052241</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_410</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_411">
+        <From SequenceNumber="25">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052241</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="26">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052243</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_411</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_412">
+        <From SequenceNumber="26">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109052243</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="27">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008936</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_412</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_413">
+        <From SequenceNumber="27">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008936</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="28">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008935</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_413</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_414">
+        <From SequenceNumber="28">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008935</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="29">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008933</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_414</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_415">
+        <From SequenceNumber="29">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008933</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="30">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008930</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_415</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_416">
+        <From SequenceNumber="30">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008930</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="31">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008922</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_416</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_417">
+        <From SequenceNumber="31">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008922</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="32">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008920</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_417</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_418">
+        <From SequenceNumber="32">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008920</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="33">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008919</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_418</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_419">
+        <From SequenceNumber="33">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008919</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="34">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008916</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_419</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_420">
+        <From SequenceNumber="34">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008916</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="35">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008915</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_420</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_421">
+        <From SequenceNumber="35">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008915</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="36">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008904</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_421</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_422">
+        <From SequenceNumber="36">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008904</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="37">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008903</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_422</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_423">
+        <From SequenceNumber="37">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008903</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="38">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008912</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_423</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_424">
+        <From SequenceNumber="38">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008912</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="39">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008924</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_424</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_425">
+        <From SequenceNumber="39">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008924</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="40">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008926</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_425</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_426">
+        <From SequenceNumber="40">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008926</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="41">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008953</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_426</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_427">
+        <From SequenceNumber="41">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008953</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="42">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008956</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_427</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_428">
+        <From SequenceNumber="42">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008956</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="43">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008961</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_428</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_429">
+        <From SequenceNumber="43">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008961</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="44">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008957</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_429</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_430">
+        <From SequenceNumber="44">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008957</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="45">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008945</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_430</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15_431">
+        <From SequenceNumber="45">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>109000008945</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="46">
+          <Activity>setDown</Activity>
+          <StopPointRef>109051916</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL15_431</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="OP4">
+      <NationalOperatorCode>ATBC</NationalOperatorCode>
+      <OperatorShortName>Albatross Coaches</OperatorShortName>
+      <LicenceNumber>PC2083149</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>Albatross</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PC2083149:3</ServiceCode>
+      <Lines>
+        <Line id="ATBC:PC2083149:3:DC1">
+          <LineName>DC1</LineName>
+          <OutboundDescription>
+            <Description>Mickleover - Pride Park</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Pride Park - Mickleover</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2026-11-28</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>OP4</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Mickleover</Origin>
+        <Destination>Pride Park</Destination>
+        <JourneyPattern id="JP14">
+          <DestinationDisplay>
+          </DestinationDisplay>
+          <OperatorRef>OP4</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>RT14</RouteRef>
+          <JourneyPatternSectionRefs>JPS14</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP15">
+          <DestinationDisplay>
+          </DestinationDisplay>
+          <OperatorRef>OP4</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>RT15</RouteRef>
+          <JourneyPatternSectionRefs>JPS15</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>OP4</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>13:45 MIC- PRI</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>DC1</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2026-11-28</StartDate>
+              <EndDate>2026-11-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-19</StartDate>
+              <EndDate>2026-12-19</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-23</StartDate>
+              <EndDate>2027-01-23</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-02-06</StartDate>
+              <EndDate>2027-02-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-02-20</StartDate>
+              <EndDate>2027-02-20</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-06</StartDate>
+              <EndDate>2027-03-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-20</StartDate>
+              <EndDate>2027-03-20</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-04-10</StartDate>
+              <EndDate>2027-04-10</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>30</VehicleJourneyCode>
+      <ServiceRef>PC2083149:3</ServiceRef>
+      <LineRef>ATBC:PC2083149:3:DC1</LineRef>
+      <JourneyPatternRef>JP14</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP4</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>18:30 MIC - PRI</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>DC1</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2026-12-09</StartDate>
+              <EndDate>2026-12-09</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-29</StartDate>
+              <EndDate>2026-12-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-02-16</StartDate>
+              <EndDate>2027-02-16</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-16</StartDate>
+              <EndDate>2027-03-16</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-04-20</StartDate>
+              <EndDate>2027-04-20</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-01</StartDate>
+              <EndDate>2027-05-01</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>31</VehicleJourneyCode>
+      <ServiceRef>PC2083149:3</ServiceRef>
+      <LineRef>ATBC:PC2083149:3:DC1</LineRef>
+      <JourneyPatternRef>JP14</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP4</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>16:45 PRI - MIC</Description>
+          <BlockNumber>3</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>DC1</TicketMachineServiceCode>
+          <JourneyCode>3</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2026-11-28</StartDate>
+              <EndDate>2026-11-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-19</StartDate>
+              <EndDate>2026-12-19</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-23</StartDate>
+              <EndDate>2027-01-23</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-02-06</StartDate>
+              <EndDate>2027-02-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-02-20</StartDate>
+              <EndDate>2027-02-20</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-06</StartDate>
+              <EndDate>2027-03-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-20</StartDate>
+              <EndDate>2027-03-20</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-04-10</StartDate>
+              <EndDate>2027-04-10</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>32</VehicleJourneyCode>
+      <ServiceRef>PC2083149:3</ServiceRef>
+      <LineRef>ATBC:PC2083149:3:DC1</LineRef>
+      <JourneyPatternRef>JP15</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP4</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>21:45 PRI - MIC</Description>
+          <BlockNumber>4</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>DC1</TicketMachineServiceCode>
+          <JourneyCode>4</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2026-12-09</StartDate>
+              <EndDate>2026-12-09</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-29</StartDate>
+              <EndDate>2026-12-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-02-16</StartDate>
+              <EndDate>2027-02-16</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-16</StartDate>
+              <EndDate>2027-03-16</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-04-20</StartDate>
+              <EndDate>2027-04-20</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-01</StartDate>
+              <EndDate>2027-05-01</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>33</VehicleJourneyCode>
+      <ServiceRef>PC2083149:3</ServiceRef>
+      <LineRef>ATBC:PC2083149:3:DC1</LineRef>
+      <JourneyPatternRef>JP15</JourneyPatternRef>
+      <DepartureTime>21:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>
